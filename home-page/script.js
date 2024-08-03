@@ -179,7 +179,7 @@ function showCompanyCodes() {
 }
 
 function companyCreationRedirect() {
-    window.location.href = "/company-creation/index.html";
+    window.location.href = "/SBMS/company-creation/index.html";
 }
 
 function main() {
