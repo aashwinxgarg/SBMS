@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+.page {
+    background-color: white;
+    width: 75vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 16vh;
+}
+.page-title {
+    background-color: #7cbce9;
+    display: flex;
+    justify-content: space-between;
+}
+.title-text {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.close {
+    padding-right: 10px;
+}
+.container-1 {
+    /* border: 2px solid red; */
+    border-bottom: 2px solid silver;
+    width: 73.5vw;
+    margin: auto;
+    height: 48px;
+}
+.ques {
+    width: 14vw;
+}
+.questions-answers {
+    display: flex;
+}
+.block-1 {
+    /* border: 2px solid red; */
+    width: 40vw;
+    height: 48vh;
+}
+.container-2 {
+    display: flex;
+    border-bottom: 2px solid silver;
+    width: 73.5vw;
+    margin: auto;
+}
+.ans {
+    width: 18vw;
+    font-weight: 600;
+}
+.address-ans {
+    font-weight: 400;
+}
+.company-name {
+    padding: 15px 0px;
+}
+.address {
+    padding-bottom: 70px;
+}
+.state {
+    padding-bottom: 25px;
+}
+.block-2 .questions-answers .ques{
+    /* border: 2px solid red; */
+    width: 22vw;
+}
+.block-2{
+    padding: 20px 0px;
+    padding-left: 10px;
+    /* border: 2px solid red; */
+}
+.block-2 .questions-answers{
+    padding: 2px;
+}
+.container-3 {
+    width: 73.5vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.acceptance {
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    top: 19px;
+    left: 12px;
+    
+}
+.accept {
+    font-size: large;
+    position: relative;
+    top: 18px;
+    left: 40px;
+}
+.yes-no {
+    position: relative;
+    top: 35px;
+    left: 36px;
+}
+.close {
+    cursor: pointer;
+}

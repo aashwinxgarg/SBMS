@@ -1,0 +1,214 @@
+body {
+    box-sizing: border-box;
+}
+.p-header {
+    background-color: #3069B3;
+    display: flexbox;
+    height: 9vh;
+}
+.p-head-title {
+    display: flex;
+}
+.logo-text {
+    color: silver;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+.manage-text {
+    border-bottom: 2px solid silver;
+    position: relative;
+    height: 22px;
+    top: 8px;
+    left: 8px;
+    width: 400px;
+    color: silver;
+}
+.manage-options {
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 25px;
+    position: relative;
+    left: 8vw;
+    bottom: 8px;
+}
+.manage-options ul {
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    bottom: 15px;
+}
+.manage-options ul li, button {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.go-to {
+    padding: 4px 20px;
+    color: black;
+    border: 2px solid #ABD3EF;
+}
+.left-right {
+    display: flex;
+}
+.page-left {
+    /* border: 2px solid red; */
+    width: 44vw;
+    height: 86vh;
+    border-right: 1px solid gray;
+}
+.current-headings {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 4px;
+    /* border: 2px solid black; */
+    font-size: small;
+    color: #2a67b2;
+    font-weight: 600;
+}
+.page-body-left-currents {
+    width: 44vw;
+    /* border: 2px solid black; */
+    height: 14vh;
+    border-bottom: 2px solid #ABD3EF;
+}
+.current-texts {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size:medium;
+}
+.entries {
+    /* border: 2px solid red; */
+    height: 70vh;
+}
+.entry-title {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    align-items: center;
+    border: 2px solid #ABD3EF;
+}
+.entry-heading {
+    padding: 0px 30px;
+    font-size: small;
+    color: #2a67b2;
+}
+.entry {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 50vh;
+}
+.entry-data {
+    font-weight: bold;
+}
+.page-right {
+    width: 44vw;
+    /* border: 2px solid black; */
+}
+.sidebar {
+    background-color: #abd3efd4;
+    width: 12vw;
+}
+.sidebar-box {
+    background-color: white;
+    margin: 10px;
+    height: 14px;
+    /* text-align: center; */
+    padding: 5px;
+    font-size: small;
+}
+
+.container-gateway {
+    background-color:#abd3efd4;
+    width: 22vw;
+    height: 55vh;
+    border: 2px solid #3069B3;
+}
+.page-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gateway-title {
+    background-color:#2a67b2;
+    color: rgba(255, 255, 255, 0.748);
+    height: 24px;
+    font-size: large;
+    text-align: center;
+    padding-left: 30px;
+}
+.gateway-elements-title {
+    padding-top: 14px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color:#3069B3;
+    padding-left: 6vw;
+}
+.gateway-title-option {
+    font-size: 14px;
+    color: black;
+    padding-left: 6vw;
+}
+.gateway-title-option:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+.manage-options ul li:hover {
+    text-decoration: underline;
+}
+.gateway-elements-title:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.close {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 20px;
+
+}
+.close:hover {
+    cursor: pointer;
+}
+
+#company:hover {
+    cursor: pointer;
+}
+.above-country-code-options {
+    font-size:14px;
+    text-align: end;
+    
+}
+.above-country-code-box {
+    padding-top: 15px;
+}
+.country-code-options {
+    border-top: 1px solid silver;
+}
+.country-code {
+    width: 50px;
+}
+.country {
+    display: flex;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.country-code-name {
+    position: relative;
+    right: -50px;
+}
+.country:hover {
+    background-color: yellow;
+    cursor:pointer;
+}
