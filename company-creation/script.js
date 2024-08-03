@@ -1,5 +1,5 @@
 function homepage() {
-    window.location.href = "/SBMS/home-page/index.html";
+    window.location.href = "/SBMS/index.html";
 }
 
 function main() {
